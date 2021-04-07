@@ -8,7 +8,7 @@ def count_positives_sum_negatives(nums):
     else:
       total += num
 
-#   return [count, total]
+  return [count, total]
 
 # Using list comprehensions.
 def count_positives_sum_negatives(nums):
