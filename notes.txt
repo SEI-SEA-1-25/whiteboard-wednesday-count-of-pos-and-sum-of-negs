@@ -1,0 +1,43 @@
+create a function that squares a number passed into it then sum's the square into it 
+
+
+4x4 = 16 + 4
+
+
+
+def square_sum(number):
+    total = []
+    for num in number:
+        total.append(num ** 2)
+        return sum(total)
+
+
+
+
+
+print(square_sum([2, 2, 2]))
+
+
+
+JS 
+Assign array.prototype.sum to be a function 
+no arguments
+this.etc
+
+
+
+
+array.prototype.sum() => {
+    const nums = 0
+    for(num in nums){
+
+    } 
+}
+
+array.prototype.average() => {
+    return this.sum() / this.length
+}
+
+
+const nums = [5, 10, 3, 6];
+const average = nums.average();
